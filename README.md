@@ -1,2 +1,3 @@
 # disciplinaCgNot
-Material da disciplina de Computação Gráfica
+
+Material da disciplina de Computação Gráfica.  
