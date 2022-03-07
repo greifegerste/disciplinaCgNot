@@ -2,7 +2,7 @@
 
 Material da disciplina de Computação Gráfica.  
 
-## [Cronograma](Material/cronograma.md "cronograma")  
+## [Cronograma](cronograma.md "cronograma")  
 
 ## Unidade 1  
 
