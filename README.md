@@ -1,3 +1,5 @@
+<!-- Disciplina OLD <https://ava3.furb.br/course/view.php?id=24150> -->
+
 # disciplinaCgNot
 
 Material da disciplina de Computação Gráfica.  
@@ -6,4 +8,4 @@ Material da disciplina de Computação Gráfica.
 
 ## Unidade 1  
 
-[cg-slides_u1](Material/cg-slides_u1.pdf "cg-slides_u1")  
+[Unidade1](Unidade1 "Unidade 1")  
