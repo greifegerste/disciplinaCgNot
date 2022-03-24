@@ -13,7 +13,7 @@ Objetivo:
 
 O primeiro passo é ter um ambiente de desenvolvimento com o OpenTK (biblioteca gráfica), SDK do .NET Core (linguagem de programação C#) e a IDE VSCode. Bom, olhe as instruções em [OpenTK SDK do .NET Core VSCode](opentk-sdk-do-net-core-vscode).  
 
-### OpenTK SDK do .NET Core VSCode
+### OpenTK SDK - Core VSCode
 
 Como executar aplicações utilizando o OpenTK no Visual Studio Code.  
 
