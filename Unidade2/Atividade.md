@@ -87,6 +87,21 @@ Use a classe SegReta para desenhar o poliedro de controle e crie uma nova classe
 
 ![CG-N2_6.mov](./imgs/CG-N2_6.mov "CG-N2_6.mov")  
 
+## 7. BBox dos círculos
+
+E por fim, esta aplicação tem o objetivo de fazer um joystick virtual. Basicamente deve-se desenhar dois círculos (um menor e outro maior) e poder usar o mouse para mover o círculo menor, mas sem deixar ele (o centro do círculo menor) sair dos limites do círculo maior.  
+
+Para controlar o movimento do centro do círculo menor deve ser usado:  
+
+– um teste inicial pela BBox interna do círculo maior;  
+– seguido do cálculo da distância (euclidiana, sem raiz).  
+
+Exemplo, vídeo a baixo.  
+
+Aqui só use as classes Retangulo e Circulo para fazer as representações dos objetos abaixo.  
+
+![CG-N2_7.mov](./imgs/CG-N2_7.mov "CG-N2_7.mov")  
+
 <!--
 Caro aluno, a sua nota da atividade N2 (unidade 2) de Computação Gráfica já esta disponível no DION.
 Nota:
