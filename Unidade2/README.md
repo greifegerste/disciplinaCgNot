@@ -15,6 +15,6 @@ Objetivo: aplicar os conceitos básicos de sistemas de referências e modelagem 
 
 [IDE_OpenGL](IDE.md "IDE_OpenGL")  
 
-## Atividades  
+## [Atividades](./Atividade.md "Atividades")
 
 Atenção:  
