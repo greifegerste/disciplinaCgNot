@@ -7,6 +7,15 @@ Conceitos básicos de Computação Gráfica: estruturas de dados para geometria,
 
 Objetivo: aplicar os conceitos básicos de sistemas de referências e modelagem geométrica em Computação Gráfica.  
 
+<!--
+Atenção: O professor irá enviar um e-mail institucional (seuNome@furb.br) com um convite para acessar um repositório (versionador de código). Neste repositório deve ser postada as atividades desta unidade até as 24:00 do dia em que foi pedido para ser entregue (ver cronograma). Faça o seu trabalho, cópias receberão nota zero. O professor pode a qualquer momento questionar e avaliar o trabalho desenvolvido.
+
+Exemplos: para desenvolver os exercícios utilize os exemplos: https://github.com/dalton-reis/disciplina-cg/tree/master/CG_N2
+
+Lembre: cada questão deste trabalho deve ser separada em novas pastas e projetos executados separadamente. Obrigatoriamente devem usar as classes disponíveis nos exemplos do GIT da disciplina.
+
+-->
+
 ## Material  
 
 [cg-slides_u2.pdf](./cg-slides_u2.pdf "cg-slides_u2.pdf")  
@@ -15,6 +24,11 @@ Objetivo: aplicar os conceitos básicos de sistemas de referências e modelagem 
 
 [IDE_OpenGL](IDE.md "IDE_OpenGL")  
 
-## [Atividades](./Atividade.md "Atividades")
+## Atividades
+
+[Atividades](./Atividade.md "Atividades")
 
 Atenção:  
+
+
+-----
