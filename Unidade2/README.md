@@ -88,7 +88,7 @@ Nesse ponto um novo arquivo Class1.cs contendo a definição de uma classe é cr
 
 ### CG_N2_OpenTK_NAO_Usar
 
-O segundo passo é olhar o exemplo de código em <https://github.com/dalton-reis/disciplina-cg/wiki/CG_N2_OpenTK_NAO_Usar>.
+O segundo passo é olhar o exemplo de código em [CG_N2_OpenTK_NAO_Usar](./CG_N2_OpenTK_NAO_Usar/ "CG_N2_OpenTK_NAO_Usar").  
 
 Este é um exemplo simples usando o OpenTK e sobre-escrevendo os principais métodos usados no Render Gráfico.  
 
