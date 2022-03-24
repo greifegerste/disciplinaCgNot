@@ -13,7 +13,7 @@ Objetivo: aplicar os conceitos básicos de sistemas de referências e modelagem 
 
 ## Ambiente de Desenvolvimento
 
-[IDE_OpenGL](IDE.md "IDE_OpenGL)  
+[IDE_OpenGL](IDE.md "IDE_OpenGL")  
 
 ## Atividades  
 
