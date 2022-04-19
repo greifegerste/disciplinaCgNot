@@ -2,6 +2,8 @@
   Autor: Dalton Solano dos Reis
 **/
 
+#define CG_Debug
+
 namespace CG_Biblioteca
 {
   /// <summary>
@@ -78,6 +80,7 @@ namespace CG_Biblioteca
     /// <value>coordeanda w</value>
     public double W { get => w; }
 
+#if CG_Debug
     public override string ToString()
     {
       string retorno;
@@ -85,6 +88,7 @@ namespace CG_Biblioteca
       retorno += "P" + "[" + x + "," + y + "," + z + "," + w + "]" + "\n";
       return (retorno);
     }
+#endif
 
   }
 }

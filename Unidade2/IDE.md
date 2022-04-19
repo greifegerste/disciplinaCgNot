@@ -24,7 +24,8 @@ Como executar aplicações utilizando o OpenTK no Visual Studio Code.
 Para os passos a seguir é possível utilizar o prompt do Windows (cmd) ou o terminal do VSCode.  
 Crie uma nova pasta que será o diretório do projeto OpenTK no VSCode e navegue até ela. Nesse exemplo o nome da pasta será 'OlaMundo':  
 
-  $ mkdir OlaMundo; cd OlaMundo  
+  $ mkdir OlaMundo
+  $ cd OlaMundo  
 
 Em seguida crie um Console Application nessa pasta:  
 
@@ -92,7 +93,3 @@ Este é um exemplo simples usando o OpenTK e sobre-escrevendo os principais mét
 - E os métodos do ciclo de Render são:  
 
 ![https://github.com/dalton-reis/disciplina-cg/blob/master/CG_N2_OpenTK_NAO_Usar/docs/CG_N2_OpenTK_NAO_Usar_Sequencia.png](https://github.com/dalton-reis/disciplina-cg/blob/master/CG_N2_OpenTK_NAO_Usar/docs/CG_N2_OpenTK_NAO_Usar_Sequencia.png "Sequência")
-
-## Atividades  
-
-Atenção:  

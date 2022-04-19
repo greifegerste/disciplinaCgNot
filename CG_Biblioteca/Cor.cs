@@ -2,6 +2,8 @@
   Autor: Dalton Solano dos Reis
 **/
 
+#define CG_Debug
+
 using OpenTK.Graphics.OpenGL;
 namespace CG_Biblioteca
 {
@@ -14,6 +16,12 @@ namespace CG_Biblioteca
       this.corR = corR; this.corG = corG; this.corB = corB; this.corA = corA;
     }
 
+    public byte CorR { get => corR; set => corR = value; }
+    public byte CorG { get => corG; set => corG = value; }
+    public byte CorB { get => corB; set => corB = value; }
+    public byte CorA { get => corA; set => corA = value; }
+
+#if CG_Debug
     public override string ToString()
     {
       string retorno;
@@ -21,11 +29,7 @@ namespace CG_Biblioteca
       retorno += "corR: " + corR + " - corG" + corG + " - corB" + corB + " - corA" + corA + "\n";
       return (retorno);
     }
-
-    public byte CorR { get => corR; set => corR = value; }
-    public byte CorG { get => corG; set => corG = value; }
-    public byte CorB { get => corB; set => corB = value; }
-    public byte CorA { get => corA; set => corA = value; }
+#endif
 
   }
 }

@@ -2,6 +2,8 @@
   Autor: Dalton Solano dos Reis
 **/
 
+#define CG_Debug
+
 using OpenTK.Graphics.OpenGL;
 using CG_Biblioteca;
 
@@ -28,6 +30,7 @@ namespace gcgcg
     }
     
     //TODO: melhorar para exibir não só a lista de pontos (geometria), mas também a topologia ... poderia ser listado estilo OBJ da Wavefrom
+#if CG_Debug
     public override string ToString()
     {
       string retorno;
@@ -38,6 +41,7 @@ namespace gcgcg
       }
       return (retorno);
     }
+#endif
 
   }
 }

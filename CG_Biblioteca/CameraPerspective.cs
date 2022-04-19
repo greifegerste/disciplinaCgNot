@@ -1,3 +1,9 @@
+/**
+  Autor: Dalton Solano dos Reis
+**/
+
+#define CG_Debug
+
 using System;
 using OpenTK;
 using OpenTK.Input;
@@ -101,6 +107,7 @@ namespace CG_Biblioteca
       }
     }
 
+#if CG_Debug
     public override string ToString()
     {
       string retorno;
@@ -114,6 +121,7 @@ namespace CG_Biblioteca
       retorno += "aspect: " + aspect + "\n";
       return (retorno);
     }
+#endif
 
   }
 }

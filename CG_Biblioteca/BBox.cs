@@ -2,6 +2,8 @@
   Autor: Dalton Solano dos Reis
 **/
 
+#define CG_Debug
+
 using OpenTK.Graphics.OpenGL;
 namespace CG_Biblioteca
 {
@@ -113,6 +115,7 @@ namespace CG_Biblioteca
     public Ponto4D obterCentro => centro;
 
     //TODO: melhorar para exibir não só a lsita de pontos (geometria), mas também a topologia ... poderia ser listado estilo OBJ da Wavefrom
+#if CG_Debug
     public override string ToString()
     {
       string retorno;
@@ -122,6 +125,7 @@ namespace CG_Biblioteca
       retorno += "menorZ: " + menorZ + " - maiorZ" + maiorZ + "\n";
       return (retorno);
     }
+#endif
 
   }
 }

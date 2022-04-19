@@ -2,6 +2,8 @@
   Autor: Dalton Solano dos Reis
 **/
 
+#define CG_Debug
+
 using System.Collections.Generic;
 using CG_Biblioteca;
 
@@ -48,6 +50,7 @@ namespace gcgcg
       pontosLista[posicao] = pto;
     }
 
+#if CG_Debug
     public override string ToString()
     {
       string retorno;
@@ -58,5 +61,7 @@ namespace gcgcg
       }
       return (retorno);
     }
+#endif
+
   }
 }

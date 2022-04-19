@@ -2,6 +2,8 @@
   Autor: Dalton Solano dos Reis
 **/
 
+#define CG_Debug
+
 namespace CG_Biblioteca
 {
   /// <summary>
@@ -49,6 +51,7 @@ namespace CG_Biblioteca
     }
 
     //TODO: melhorar para exibir não só a lsita de pontos (geometria), mas também a topologia ... poderia ser listado estilo OBJ da Wavefrom
+#if CG_Debug
     public override string ToString()
     {
       string retorno;
@@ -58,6 +61,7 @@ namespace CG_Biblioteca
       retorno += "zMin: " + zMin + " - zMax: " + zMax + "\n";
       return (retorno);
     }
+#endif
 
   }
 }

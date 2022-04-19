@@ -10,10 +10,7 @@
                 "${workspaceFolder}/CG_Biblioteca.csproj"
             ],
             "problemMatcher": "$tsc",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
+            "group": "build"
         },
         {
             "label": "publishDebug",

@@ -2,6 +2,8 @@
   Autor: Dalton Solano dos Reis
 **/
 
+#define CG_Debug
+
 using System;
 
 namespace CG_Biblioteca
@@ -145,6 +147,7 @@ namespace CG_Biblioteca
       }
     }
 
+#if CG_Debug
     public override string ToString()
     {
       string retorno;
@@ -155,7 +158,7 @@ namespace CG_Biblioteca
       retorno += "|" + ObterElemento(3) + " | " + ObterElemento(7) + " | " + ObterElemento(11) + " | " + ObterElemento(15) + "\n";
       return (retorno);
     }
-
+#endif
 
   }
 
