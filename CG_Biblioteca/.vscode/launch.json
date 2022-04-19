@@ -9,9 +9,7 @@
       "type": "coreclr",
       "request": "launch",
       "preLaunchTask": "build",
-      // "program": "${workspaceFolder}/bin/Debug/<insert-target-framework-here>/<insert-project-name-here>.dll",
-      //FIXME: path não funciona ... não gera a DLL na pasta escolhida
-      "program": "${workspaceFolder}/../CG_Biblioteca.dll",
+      "program": "${workspaceFolder}/bin/Debug/net6.0/CG_Biblioteca.dll",
       "args": [],
       "cwd": "${workspaceFolder}",
       "console": "internalConsole",
@@ -20,8 +18,7 @@
     {
       "name": ".NET Core Attach",
       "type": "coreclr",
-      "request": "attach",
-      "processId": "${command:pickProcess}"
+      "request": "attach"
     }
   ]
 }
