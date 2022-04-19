@@ -1,4 +1,4 @@
-@startuml
+@startuml CG_Biblioteca
 class BBox {
     + BBox(menorX:double, menorY:double, menorZ:double, maiorX:double, maiorY:double, maiorZ:double)
     + Atribuir(pto:Ponto4D) : void

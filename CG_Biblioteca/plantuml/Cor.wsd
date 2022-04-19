@@ -1,4 +1,4 @@
-@startuml
+@startuml Cor
 class Cor {
     + Cor(corR:byte, corG:byte, corB:byte, corA:byte)
     + <<override>> ToString() : string

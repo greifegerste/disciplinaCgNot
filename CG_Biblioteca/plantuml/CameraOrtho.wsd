@@ -1,4 +1,4 @@
-@startuml
+@startuml CameraOrtho
 class CameraOrtho {
     + CameraOrtho(xMin:double, xMax:double, yMin:double, yMax:double, zMin:double, zMax:double)
     + xmin : double <<get>> <<set>>

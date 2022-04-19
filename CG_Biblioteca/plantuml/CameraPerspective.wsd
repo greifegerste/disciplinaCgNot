@@ -1,4 +1,4 @@
-@startuml
+@startuml CameraPerspective
 class CameraPerspective {
     + CameraPerspective(fovy:float, aspect:float, near:float, far:float)
     + Fovy : float <<get>> <<set>>
