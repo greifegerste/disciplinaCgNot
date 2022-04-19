@@ -1,4 +1,4 @@
-@startuml
+@startuml Privado_BBox
 abstract class Privado_BBox {
     + {static} Dentro(bBox:BBox, pto:Ponto4D) : bool
 }

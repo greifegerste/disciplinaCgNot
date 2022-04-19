@@ -1,4 +1,4 @@
-@startuml
+@startuml ObjetoGeometria
 abstract class ObjetoGeometria {
     + ObjetoGeometria(rotulo:string, paiRef:Objeto)
     + PontosAdicionar(pto:Ponto4D) : void

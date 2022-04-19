@@ -1,4 +1,4 @@
-@startuml
+@startuml Privado_Matematica
 abstract class Privado_Matematica {
     + {static} DistanciaEuclidiana(pto1:Ponto4D, pto2:Ponto4D) : double
     + {static} DistanciaEuclidianaSemRaiz(pto1:Ponto4D, pto2:Ponto4D) : double

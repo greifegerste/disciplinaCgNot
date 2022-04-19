@@ -1,4 +1,4 @@
-@startuml
+@startuml CG_N2
 class Mundo {
     + {static} GetInstance(width:int, height:int) : Mundo
     mouseX : int

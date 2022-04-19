@@ -1,4 +1,4 @@
-@startuml
+@startuml Objeto
 abstract class Objeto {
     + PrimitivaTamanho : float <<get>> <<set>>
     + Objeto(rotulo:string, paiRef:Objeto)
